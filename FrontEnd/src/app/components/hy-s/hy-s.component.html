@@ -1,0 +1,106 @@
+<div class="row">
+  <h1>Hard & Soft skills</h1>
+  <div class="col-lg-2">
+    <button type="button" *ngIf="isLogged" routerLink="/nuevaHys" class="boton">
+      Nueva Skill
+    </button>
+  </div>
+
+  <div
+    class="text-center col-sm-4 col-md-4 col-lg-4 circulo"
+    *ngFor="let skill of skills"
+  >
+    <circle-progress
+      [percent]="skill.porcentajeSkills"
+      [radius]="90"
+      [imageSrc]="skill.fotoSkills"
+      [title]="skill.nombreSkills"
+      [titleColor]="'#00FFFF'"
+      [showTitle]="true"
+      [showImage]="true"
+      [imageHeight]="75"
+      [imageWidth]="75"
+      [showUnits]="false"
+      [showSubtitle]="false"
+      [outerStrokeWidth]="10"
+      [innerStrokeWidth]="2"
+      [outerStrokeColor]="'#00FFFF'"
+      [innerStrokeColor]="'#FF00FF'"
+      [animation]="true"
+      [animationDuration]="600"
+    >
+    </circle-progress>
+
+    <div>
+      <td>
+        <button
+          class="bot-editar"
+          *ngIf="isLogged"
+          routerLink="/editarHys/{{ skill.idSkills }}"
+        >
+          <i class="bi bi-pencil-fill"></i> Editar
+        </button>
+      </td>
+      <td>
+        <button
+          class="bot-editar"
+          *ngIf="isLogged"
+          (click)="onEliminarSkills(skill.idSkills)"
+        >
+          <i class="bi bi-trash-fill"></i> Eliminar
+        </button>
+      </td>
+    </div>
+  </div>
+
+  <div class="bubles">
+    <span style="--1: 11"></span>
+    <span style="--1: 12"></span>
+    <span style="--1: 24"></span>
+    <span style="--1: 10"></span>
+    <span style="--1: 14"></span>
+    <span style="--1: 23"></span>
+    <span style="--1: 18"></span>
+    <span style="--1: 16"></span>
+    <span style="--1: 19"></span>
+    <span style="--1: 20"></span>
+    <span style="--1: 22"></span>
+    <span style="--1: 25"></span>
+    <span style="--1: 18"></span>
+    <span style="--1: 21"></span>
+    <span style="--1: 15"></span>
+    <span style="--1: 13"></span>
+    <span style="--1: 26"></span>
+    <span style="--1: 17"></span>
+    <span style="--1: 21"></span>
+    <span style="--1: 14"></span>
+    <span style="--1: 11"></span>
+    <span style="--1: 12"></span>
+    <span style="--1: 24"></span>
+    <span style="--1: 10"></span>
+    <span style="--1: 14"></span>
+    <span style="--1: 23"></span>
+    <span style="--1: 18"></span>
+    <span style="--1: 16"></span>
+    <span style="--1: 19"></span>
+    <span style="--1: 20"></span>
+    <span style="--1: 22"></span>
+    <span style="--1: 25"></span>
+    <span style="--1: 18"></span>
+    <span style="--1: 21"></span>
+    <span style="--1: 15"></span>
+    <span style="--1: 13"></span>
+    <span style="--1: 26"></span>
+    <span style="--1: 17"></span>
+    <span style="--1: 21"></span>
+    <span style="--1: 14"></span>
+    <span style="--1: 26"></span>
+    <span style="--1: 17"></span>
+    <span style="--1: 21"></span>
+    <span style="--1: 14"></span>
+    <span style="--1: 26"></span>
+    <span style="--1: 17"></span>
+    <span style="--1: 21"></span>
+    <span style="--1: 14"></span>
+  </div>
+</div>

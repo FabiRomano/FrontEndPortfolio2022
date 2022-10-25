@@ -1,0 +1,85 @@
+* {
+  background: transparent;
+}
+
+.redesMenu {
+  display: flex;
+  position: absolute;
+  background-color: transparent;
+  padding-top: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 0;
+  right: 28%;
+
+  margin-right: 10px;
+}
+
+a {
+  margin-top: 1rem;
+}
+.button a {
+  text-decoration: none;
+  font-size: 35px;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  /* background: rgba(0, 0, 0, 0.459); */
+  border-radius: 50%;
+  /* box-shadow: 0px -10px 20px rgba(240, 18, 166, 0.5); */
+  box-shadow: 0px 15px 30px #c5c5c5,
+  -0px -15px 30px #c5c5c5;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(rgb(68, 19, 206), rgb(135, 22, 211));
+  margin: 2rem;
+  align-items: stretch;
+ 
+}
+.button a:hover {
+  transform: scale(1.5);
+}
+
+#facebook {
+  color: #fff;
+}
+
+#instagram {
+  color: #ee34c6;
+}
+
+#twitter {
+  color: #3bdbf0;
+}
+
+#github {
+  color: #0a0a0a;
+}
+/* #login
+{
+    color: rgb(7, 12, 17);
+} */
+
+.btn {
+  border-width: medium;
+  border-radius: 30px;
+}
+
+/*---para la vista de celular ---*/
+
+@media (max-width: 575px) {
+  .container {
+    flex-direction: column;
+    
+  }
+
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+  }
+  .button a {
+    margin: 1.5rem;
+  }
+}
