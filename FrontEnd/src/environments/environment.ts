@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiBaseUrl: 'https://git.heroku.com/backmio.git'
+  apiBaseUrl:'https://backmio.herokuapp.com'
 };
 
 /*
