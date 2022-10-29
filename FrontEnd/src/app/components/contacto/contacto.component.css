@@ -1,5 +1,10 @@
 .row
 {
+    
+        margin-left: 0;
+        margin-right: 0;
+    
+
   border-radius: 10%;
   border: solid 1px  rgb(223, 63, 116) ;
   background: linear-gradient(rgb(68, 19, 206), rgb(135, 22, 211))
@@ -59,10 +64,12 @@
     color: rgb(64, 235, 87);
 }
 
-#flecha
+/* #flecha
+
+
 {
     color: darkviolet;
-}
+} */
 
 
 .btn
@@ -77,7 +84,7 @@ p
     /* margin-top: 20px; */
    color: aliceblue;
    font-size: 20px;
-   font-style: italic !important;
+   font-style: cursive;
    margin: 20px;
   
  
@@ -99,5 +106,13 @@ p
     }
     .button a{
         margin: 0.3em;
+    }
+
+    p{
+        color: aliceblue;
+        font-size: 15px;
+        font-style: cursive;
+        margin: 15px;
+        background: transparent;
     }
 }

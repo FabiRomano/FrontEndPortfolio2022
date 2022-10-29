@@ -16,3 +16,8 @@ app-social{
     background: transparent;
   
 }
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
