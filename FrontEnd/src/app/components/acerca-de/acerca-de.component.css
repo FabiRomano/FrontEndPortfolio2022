@@ -19,7 +19,6 @@ span {
 
 .pencil {
   box-shadow: 10px -10px 30px #f5f1f5, 10px -10px 50px aqua;
-
   position: relative;
   margin-left: 95%;
   bottom: 550px;
@@ -28,7 +27,6 @@ span {
   background: transparent;
   border: aqua 1px solid;
   border-radius: 50%;
- 
 }
 
 a {
@@ -42,8 +40,6 @@ a:hover {
 }
 
 h4 {
-  /* box-shadow: 0px 15px 30px #c5c5c5,
-    -0px -15px 30px #c5c5c5; */
   border: 1px solid aqua;
   border-radius: 25px;
   padding: 10%;
@@ -58,11 +54,7 @@ h4 {
     border-radius: 50%;
     left: 0;
     top: 380px;
-    /* border: solid 3px rgb(68, 19, 206); */
-    box-shadow: 0px -15px 30px aqua,
-     -0px -15px 30px aqua;
-    /* box-shadow: 0px -15px 30px #c5c5c5,
-    -0px -15px 30px #c5c5c5; */
+    box-shadow: 0px -15px 30px aqua, -0px -15px 30px aqua;
   }
 }
 
@@ -75,19 +67,14 @@ h4 {
   border-radius: 100%;
   padding: 1rem;
   border: solid 2px aqua;
-  /* box-shadow: 0px 5px 10px #c5c5c5,
-   -0px -5px 10px #c5c5c5; */
-   border: solid 5px #ad0597;
+  border: solid 5px #ad0597;
   bottom: 120px;
   background: linear-gradient(rgb(68, 19, 206), rgb(135, 22, 211));
-
-  /* margin-top: 5px; */
 }
 
 @media (max-width: 575px) {
   #nombre {
     position: relative;
-    /* bottom: 20px; */
     top: 80px;
     left: 5px;
     border: 1px solid #b10987;
@@ -129,18 +116,11 @@ h4 {
 
 p {
   font-weight: bold;
-  /* margin-top: 5px; */
   position: relative;
-  /* bottom: 140px ; */
   bottom: 80px;
   right: 12px;
-  /* left: 8px; */
-  border: solid 2px #ad0597;;
-  box-shadow: 0px 5px 10px aqua,
-   -0px -5px 10px   aqua;
+  border: solid 2px #ad0597;
+  box-shadow: 0px 5px 10px aqua, -0px -5px 10px aqua;
   border-radius: 10px;
-  /* box-shadow: 0px 15px 30px #c5c5c5,
-    -0px -15px 30px #c5c5c5; */
-
   background: linear-gradient(rgb(68, 19, 206), rgb(135, 22, 211));
 }
